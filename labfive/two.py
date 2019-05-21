@@ -1,6 +1,6 @@
 import random
 
-"""实验三第三题"""
+"""实验五第二题"""
 
 
 def set_practice(num):
