@@ -1,15 +1,15 @@
 """实验三第一题"""
 
-
-def printMultTable():
-    """打印下三角的九九乘方表"""
-
-    for i in range(1, 10):
-        for j in range(1, 10):
-            if j <= i:
-                print("{} * {} = {:2d}".format(j, i, i * j), end=' ')
-        print()
-
-
 if __name__ == "__main__":
-    printMultTable()
+
+    sum = 0
+
+    for i in range(100, 1001):
+        flag = 1
+        for j in range(2, i):
+            if i % j == 0:
+                flag = 0
+        if flag ==1:
+            sum += i
+
+    print("100-1000的素数之和 : {}".format(sum))
