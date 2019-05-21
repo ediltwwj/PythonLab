@@ -15,5 +15,5 @@ def set_practice(num):
 
 
 if __name__ == "__main__":
-    num = int(input("请输入随机数个数 ："))
+    num = int(input("请输入随机数个数（1-1000） ："))
     set_practice(num)
